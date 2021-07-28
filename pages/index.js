@@ -13,7 +13,6 @@ export default function Home() {
     />
     <h1
       className="absolute transform -translate-x-1/2 -translate-y-20 text-8xl top-1/2 left-1/2"
-
     >
       Test Text
     </h1>
