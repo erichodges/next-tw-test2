@@ -1,12 +1,10 @@
-// Daisy UI full page hero with background image from cloudinary and hero text in the middle of the page
 
 import Image from "next/image";
 
-export default function Page2() {
+export default function Page3() {
   return (
-    <div class="hero min-h-screen">
-      
-      <div class="hero-overlay bg-opacity-100">
+    <div class="hero min-h-screen"> 
+      <div class="relative hero-overlay bg-opacity-60">
         <Image
         src="https://res.cloudinary.com/dn3baky3u/image/upload/v1580246844/gatsby-cloudinary/evora-gt-side.jpg"
         alt="car"
@@ -15,12 +13,15 @@ export default function Page2() {
         layout="responsive"
         priority="true"
         />
-      </div> 
+      </div>
+      <h1 class=" text-5xl font-bold">
+                Hello there
+          </h1> 
       <div class="text-center hero-content text-neutral-content">
         <div class="max-w-md">
           <h1 class="mb-5 text-5xl font-bold">
                 Hello there
-              </h1> 
+          </h1> 
           <p class="mb-5">
                 Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
               </p> 
